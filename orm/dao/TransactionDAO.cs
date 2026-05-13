@@ -33,11 +33,23 @@ namespace DS2_Project_3.orm.dao
 
                 if (vycvik == null)
                 {
-                    Console.WriteLine("");
+                    Console.WriteLine("Spatny trener ve vycviku"); // TODO: change all error messages, aalso change to throw
                     return false;
                 }
 
-                TrenerDAO.ZiskejPodleId(pDb, vycvik.trenerId);
+                TrenerDTO trener = TrenerDAO.ZiskejPodleId(pDb, vycvik.trenerId)[0]; // TODO: move [0] inside the function
+                                                                                     // TODO: move [0] inside the function 
+                                                                                     // TODO: move [0] inside the function
+                                                                                     // TODO: move [0] inside the function
+                                                                                     // TODO: move [0] inside the function
+                                                                                     // TODO: move [0] inside the function
+
+
+                if (vycvik.cas_od > DateTime.Now)
+                {
+                    Console.WriteLine("Vycvyk jiz zacal");
+                    return false;
+                }
 
 
                 db.EndTransaction();
