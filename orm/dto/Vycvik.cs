@@ -8,8 +8,8 @@
         public DateTime cas_do { get; set; }
     public int pocetMist { get; set; }
         public int pocetVolnychMist { get; set; }
-        public Trener trener { get; set; }
-        public Misto misto { get; set; }
+        public int trener { get; set; }
+        public int misto { get; set; }
 
     }
 }

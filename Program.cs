@@ -1,4 +1,6 @@
-﻿namespace DS2_Project_3
+﻿using DS2_Project_3.orm.dao;
+
+namespace DS2_Project_3
 {
 
     /*
@@ -49,6 +51,8 @@
             {
                 Console.WriteLine("success");
             }
+
+            TransactionDAO.MojeTransakce(db, 0, 1, [], "");
 
             /*int? id_order = null;
             int id_user = 1;

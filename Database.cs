@@ -4,7 +4,7 @@ using Oracle.ManagedDataAccess.Client;
 
 namespace DS2_Project_3
 {
-    internal class Database
+    public class Database
     {
         private OracleConnection Connection { get; set; }
         private OracleTransaction SqlTransaction { get; set; }
@@ -16,9 +16,6 @@ namespace DS2_Project_3
             Language = "en";
         }
 
-        /// <summary>
-        /// Connect
-        /// </summary>
         public bool Connect(String conString)
         {
             if (Connection.State != ConnectionState.Open)
@@ -29,9 +26,6 @@ namespace DS2_Project_3
             return true;
         }
         
-        /// <summary>
-        /// Connect
-        /// </summary>
         public bool Connect()
         {
             bool ret = true;
@@ -44,25 +38,16 @@ namespace DS2_Project_3
             return ret;
         }
 
-        /// <summary>
-        /// Close.
-        /// </summary>
         public void Close()
         {
             Connection.Close();
         }
 
-        /// <summary>
-        /// Begin a transaction.
-        /// </summary>
         public void BeginTransaction()
         {
             SqlTransaction = Connection.BeginTransaction(IsolationLevel.Serializable);
         }
 
-        /// <summary>
-        /// End a transaction.
-        /// </summary>
         public void EndTransaction()
         {
             // command.Dispose()
@@ -70,17 +55,11 @@ namespace DS2_Project_3
             Close();
         }
 
-        /// <summary>
-        /// If a transaction is failed call it.
-        /// </summary>
         public void Rollback()
         {
             SqlTransaction.Rollback();
         }
 
-        /// <summary>
-        /// Insert a record encapulated in the command.
-        /// </summary>
         public int ExecuteNonQuery(OracleCommand command)
         {
             int rowNumber = 0;
@@ -88,9 +67,6 @@ namespace DS2_Project_3
             return rowNumber;
         }
 
-        /// <summary>
-        /// Create command.
-        /// </summary>
         public OracleCommand CreateCommand(string strCommand)
         {
             OracleCommand command = new OracleCommand(strCommand, Connection);
@@ -101,9 +77,7 @@ namespace DS2_Project_3
             }
             return command;
         }
-        /// <summary>
-        /// Select encapulated in the command.
-        /// </summary>
+
         public OracleDataReader Select(OracleCommand command)
         {
             //command.Prepare();
