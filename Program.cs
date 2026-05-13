@@ -45,6 +45,68 @@ namespace DS2_Project_3
     {
         public static void Main(string[] args)
         {
+
+            // TODO: open the db in datagrip and drop all nf tables, update the sql script to remove "" around names
+            // TODO: open the db in datagrip and drop all nf tables, update the sql script to remove "" around names
+            // TODO: open the db in datagrip and drop all nf tables, update the sql script to remove "" around names
+            // TODO: open the db in datagrip and drop all nf tables, update the sql script to remove "" around names
+            // TODO: open the db in datagrip and drop all nf tables, update the sql script to remove "" around names
+            // TODO: open the db in datagrip and drop all nf tables, update the sql script to remove "" around names
+            // TODO: open the db in datagrip and drop all nf tables, update the sql script to remove "" around names
+            // TODO: open the db in datagrip and drop all nf tables, update the sql script to remove "" around names
+            // TODO: open the db in datagrip and drop all nf tables, update the sql script to remove "" around names
+            // TODO: open the db in datagrip and drop all nf tables, update the sql script to remove "" around names
+            // TODO: open the db in datagrip and drop all nf tables, update the sql script to remove "" around names
+            // TODO: open the db in datagrip and drop all nf tables, update the sql script to remove "" around names
+            // TODO: open the db in datagrip and drop all nf tables, update the sql script to remove "" around names
+            // TODO: open the db in datagrip and drop all nf tables, update the sql script to remove "" around names
+            // TODO: open the db in datagrip and drop all nf tables, update the sql script to remove "" around names
+            // TODO: open the db in datagrip and drop all nf tables, update the sql script to remove "" around names
+            // TODO: open the db in datagrip and drop all nf tables, update the sql script to remove "" around names
+            // TODO: open the db in datagrip and drop all nf tables, update the sql script to remove "" around names
+            // TODO: open the db in datagrip and drop all nf tables, update the sql script to remove "" around names
+            // TODO: open the db in datagrip and drop all nf tables, update the sql script to remove "" around names
+            // TODO: open the db in datagrip and drop all nf tables, update the sql script to remove "" around names
+            // TODO: open the db in datagrip and drop all nf tables, update the sql script to remove "" around names
+            // TODO: open the db in datagrip and drop all nf tables, update the sql script to remove "" around names
+            // TODO: open the db in datagrip and drop all nf tables, update the sql script to remove "" around names
+            // TODO: open the db in datagrip and drop all nf tables, update the sql script to remove "" around names
+            // TODO: open the db in datagrip and drop all nf tables, update the sql script to remove "" around names
+            // TODO: open the db in datagrip and drop all nf tables, update the sql script to remove "" around names
+            // TODO: open the db in datagrip and drop all nf tables, update the sql script to remove "" around names
+            // TODO: open the db in datagrip and drop all nf tables, update the sql script to remove "" around names
+            // TODO: open the db in datagrip and drop all nf tables, update the sql script to remove "" around names
+            // TODO: open the db in datagrip and drop all nf tables, update the sql script to remove "" around names
+            // TODO: open the db in datagrip and drop all nf tables, update the sql script to remove "" around names
+            // TODO: open the db in datagrip and drop all nf tables, update the sql script to remove "" around names
+            // TODO: open the db in datagrip and drop all nf tables, update the sql script to remove "" around names
+            // TODO: open the db in datagrip and drop all nf tables, update the sql script to remove "" around names
+            // TODO: open the db in datagrip and drop all nf tables, update the sql script to remove "" around names
+            // TODO: open the db in datagrip and drop all nf tables, update the sql script to remove "" around names
+            // TODO: open the db in datagrip and drop all nf tables, update the sql script to remove "" around names
+            // TODO: open the db in datagrip and drop all nf tables, update the sql script to remove "" around names
+            // TODO: open the db in datagrip and drop all nf tables, update the sql script to remove "" around names
+            // TODO: open the db in datagrip and drop all nf tables, update the sql script to remove "" around names
+            // TODO: open the db in datagrip and drop all nf tables, update the sql script to remove "" around names
+            // TODO: open the db in datagrip and drop all nf tables, update the sql script to remove "" around names
+            // TODO: open the db in datagrip and drop all nf tables, update the sql script to remove "" around names
+            // TODO: open the db in datagrip and drop all nf tables, update the sql script to remove "" around names
+            // TODO: open the db in datagrip and drop all nf tables, update the sql script to remove "" around names
+            // TODO: open the db in datagrip and drop all nf tables, update the sql script to remove "" around names
+            // TODO: open the db in datagrip and drop all nf tables, update the sql script to remove "" around names
+            // TODO: open the db in datagrip and drop all nf tables, update the sql script to remove "" around names
+            // TODO: open the db in datagrip and drop all nf tables, update the sql script to remove "" around names
+            // TODO: open the db in datagrip and drop all nf tables, update the sql script to remove "" around names
+            // TODO: open the db in datagrip and drop all nf tables, update the sql script to remove "" around names
+            // TODO: open the db in datagrip and drop all nf tables, update the sql script to remove "" around names
+            // TODO: open the db in datagrip and drop all nf tables, update the sql script to remove "" around names
+            // TODO: open the db in datagrip and drop all nf tables, update the sql script to remove "" around names
+            // TODO: open the db in datagrip and drop all nf tables, update the sql script to remove "" around names
+
+
+
+
+
             Database db = new Database();
             bool success = db.Connect();
             if (success)

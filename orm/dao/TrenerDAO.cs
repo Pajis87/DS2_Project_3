@@ -1,5 +1,4 @@
 ﻿using Oracle.ManagedDataAccess.Client;
-using Oracle.ManagedDataAccess.Types;
 
 namespace DS2_Project_3.orm.dao
 {
@@ -8,11 +7,11 @@ namespace DS2_Project_3.orm.dao
         private static string SqlZiskejPodleId =
         """
             SELECT
-                "tId",
-                "jmeno"
-            FROM "nf_trener"
+                tId,
+                jmeno
+            FROM nf_trener
             WHERE
-                "tId" = :tId
+                tId = :tId
         """;
         
 

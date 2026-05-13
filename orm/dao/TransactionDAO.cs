@@ -29,8 +29,15 @@ namespace DS2_Project_3.orm.dao
             {
                 db.BeginTransaction();
 
+                VycvikDTO? vycvik = VycvikDAO.ZiskejPodleId(pDb, traning_id);
 
-                TrenerDAO.ZiskejPodleId(pDb, traning_id);
+                if (vycvik == null)
+                {
+                    Console.WriteLine("");
+                    return false;
+                }
+
+                TrenerDAO.ZiskejPodleId(pDb, vycvik.trenerId);
 
 
                 db.EndTransaction();
@@ -39,7 +46,21 @@ namespace DS2_Project_3.orm.dao
             {
                 db.Rollback();
                 ret = false;
-            }
+            } // TODO: check if finally is also called on throw exception
+            // TODO: check if finally is also called on throw exception
+            // TODO: check if finally is also called on throw exception
+            // TODO: check if finally is also called on throw exception
+            // TODO: check if finally is also called on throw exception
+            // TODO: check if finally is also called on throw exception
+            // TODO: check if finally is also called on throw exception
+            // TODO: check if finally is also called on throw exception
+            // TODO: check if finally is also called on throw exception
+            // TODO: check if finally is also called on throw exception
+            // TODO: check if finally is also called on throw exception
+            // TODO: check if finally is also called on throw exception
+            // TODO: check if finally is also called on throw exception
+            // TODO: check if finally is also called on throw exception
+            // TODO: check if finally is also called on throw exception
             Database.Close(pDb, db);
             return ret;
         }
